@@ -1,0 +1,339 @@
+
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: black;
+        background-color: #ff00cc;
+        background-size: cover;
+    }
+/* 
+    #about {
+        background-color: #28a745;
+        background-image: url(photo_2_2024-09-24_22-48-31.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    header {
+        background-color: #0075f3;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background: #25D366;
+        padding: 1rem 0;
+    } 
+    
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li a:hover {
+        color: red; 
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    
+        /* max-width: 1000px; Set max-width for sections */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgb(0, 255, 221);
+            border-radius: 5px;
+            box-shadow: 0 0 20px yellow;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+        gap: 10px;
+    }
+
+    .gallery-grid img:hover {
+        transform: scale(1.1);
+    }
+    .gallery-grid iframe:hover {
+        transform: scale(1.1);
+    }
+    .gallery-grid img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px;
+    }
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap; /* Allow wrapping of video iframes */
+    }
+    .video-container iframe:hover {
+        transform: scale(1.1);
+
+    }
+    .video-container iframe {
+        width: 300px; /* Default width */
+        height: 200px; /* Default height */
+        border-radius: 8px;
+    }
+
+    button {
+        padding: 12px 24px; /* Make the button larger */
+        font-size: 16px; /* Increase font size for readability */
+        background-color: #fb0808;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 400px) {
+        .video-container iframe {
+            width: 100%; /* Full width on small screens */
+            height: 150px; /* Adjust height accordingly */
+        }
+        nav ul li {
+            display: block; /* Stack the navigation links */
+            margin: 10px 0; /* Space between items */
+        }
+    }
+
+    @media (min-width: 768px) {
+        .gallery-grid {
+            grid-template-columns: repeat(2, 1fr); /* Two columns for larger devices */
+        }
+    }
+
+    @media (max-width: 600px) {
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+
+    @media (max-width: 600px){
+        header {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .gallery-grid video{
+            grid-template-columns: repeat(2, 1fr); /* Two columns for larger devices */
+        }
+    }
+    
+    
+
+
+
+
+
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #ff00d9;
+    background-size: cover;
+}
+#about {
+    background-color: #28a745;
+    background-image: url('photo_2_2024-09-24_22-48-31.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    background-color: aqua;
+}
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.video-container iframe {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  color: black;
+    background-color: #ff00d9;
+   
+    background-size: cover;
+}
+#about{
+    background-color: #28a745;
+    background-image:url(photo_2_2024-09-24_22-48-31.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    background-color: aqua;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-container iframe {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ */
